@@ -10,128 +10,128 @@ const CITIES = {
     rent1BR: 2314, rent3BR: 4493, groceries: 408, transport: 218, utilities: 191,
     dining: 163, internet: 109, schoolPerYear: 12252, healthInsurance: 136,
     isDestination: true, country: "UAE",
-    emoji: "\u{1F3D9}", vibe: "Tax-free skyline living",
+    emoji: "🏙️", vibe: "Tax-free skyline living",
   },
   "Abu Dhabi, UAE": {
     currency: "USD", currencySymbol: "$", taxRate: 0, socialContrib: 0,
     rent1BR: 1906, rent3BR: 3812, groceries: 381, transport: 191, utilities: 177,
     dining: 136, internet: 103, schoolPerYear: 10893, healthInsurance: 122,
     isDestination: true, country: "UAE",
-    emoji: "\u{1F54C}", vibe: "Culture meets ambition",
+    emoji: "🕌", vibe: "Culture meets ambition",
   },
   "Singapore": {
     currency: "USD", currencySymbol: "$", taxRate: 0.07, socialContrib: 0.20,
     rent1BR: 2400, rent3BR: 4350, groceries: 375, transport: 113, utilities: 150,
     dining: 300, internet: 45, schoolPerYear: 22500, healthInsurance: 150,
     isDestination: true, country: "Singapore",
-    emoji: "\u{1F1F8}\u{1F1EC}", vibe: "The garden city hustle",
+    emoji: "🇸🇬", vibe: "The garden city hustle",
   },
   "London, UK": {
     currency: "USD", currencySymbol: "$", taxRate: 0.27, socialContrib: 0.08,
     rent1BR: 2794, rent3BR: 4826, groceries: 508, transport: 229, utilities: 254,
     dining: 445, internet: 51, schoolPerYear: 0, healthInsurance: 0,
     isDestination: false, country: "UK",
-    emoji: "\u{1F1EC}\u{1F1E7}", vibe: "History and grey skies",
+    emoji: "🇬🇧", vibe: "History and grey skies",
   },
   "Manchester, UK": {
     currency: "USD", currencySymbol: "$", taxRate: 0.22, socialContrib: 0.08,
     rent1BR: 1397, rent3BR: 2286, groceries: 445, transport: 152, utilities: 229,
     dining: 318, internet: 44, schoolPerYear: 0, healthInsurance: 0,
     isDestination: false, country: "UK",
-    emoji: "\u{26BD}", vibe: "Northern spirit",
+    emoji: "⚽", vibe: "Northern spirit",
   },
   "Mumbai, India": {
     currency: "USD", currencySymbol: "$", taxRate: 0.18, socialContrib: 0.12,
     rent1BR: 536, rent3BR: 1071, groceries: 95, transport: 48, utilities: 36,
     dining: 60, internet: 12, schoolPerYear: 2380, healthInsurance: 24,
     isDestination: false, country: "India",
-    emoji: "\u{1F1EE}\u{1F1F3}", vibe: "Maximum city energy",
+    emoji: "🇮🇳", vibe: "Maximum city energy",
   },
   "Delhi NCR, India": {
     currency: "USD", currencySymbol: "$", taxRate: 0.18, socialContrib: 0.12,
     rent1BR: 357, rent3BR: 774, groceries: 83, transport: 42, utilities: 30,
     dining: 48, internet: 11, schoolPerYear: 2142, healthInsurance: 21,
     isDestination: false, country: "India",
-    emoji: "\u{1F1EE}\u{1F1F3}", vibe: "Capital ambitions",
+    emoji: "🇮🇳", vibe: "Capital ambitions",
   },
   "Bangalore, India": {
     currency: "USD", currencySymbol: "$", taxRate: 0.18, socialContrib: 0.12,
     rent1BR: 333, rent3BR: 655, groceries: 83, transport: 36, utilities: 26,
     dining: 48, internet: 10, schoolPerYear: 2083, healthInsurance: 18,
     isDestination: false, country: "India",
-    emoji: "\u{1F4BB}", vibe: "India's tech capital",
+    emoji: "💻", vibe: "India's tech capital",
   },
   "New York, USA": {
     currency: "USD", currencySymbol: "$", taxRate: 0.30, socialContrib: 0.0765,
     rent1BR: 3500, rent3BR: 6500, groceries: 600, transport: 130, utilities: 200,
     dining: 500, internet: 70, schoolPerYear: 0, healthInsurance: 400,
     isDestination: false, country: "USA",
-    emoji: "\u{1F5FD}", vibe: "The city that never sleeps",
+    emoji: "🗽", vibe: "The city that never sleeps",
   },
   "San Francisco, USA": {
     currency: "USD", currencySymbol: "$", taxRate: 0.32, socialContrib: 0.0765,
     rent1BR: 3200, rent3BR: 5800, groceries: 550, transport: 100, utilities: 180,
     dining: 450, internet: 65, schoolPerYear: 0, healthInsurance: 450,
     isDestination: false, country: "USA",
-    emoji: "\u{1F309}", vibe: "Tech meets the bay",
+    emoji: "🌉", vibe: "Tech meets the bay",
   },
   "Toronto, Canada": {
     currency: "USD", currencySymbol: "$", taxRate: 0.25, socialContrib: 0.05,
     rent1BR: 1776, rent3BR: 3108, groceries: 333, transport: 118, utilities: 133,
     dining: 222, internet: 59, schoolPerYear: 0, healthInsurance: 0,
     isDestination: false, country: "Canada",
-    emoji: "\u{1F1E8}\u{1F1E6}", vibe: "Polite and expensive",
+    emoji: "🇨🇦", vibe: "Polite and expensive",
   },
   "Sydney, Australia": {
     currency: "USD", currencySymbol: "$", taxRate: 0.24, socialContrib: 0,
     rent1BR: 1848, rent3BR: 2970, groceries: 330, transport: 132, utilities: 145,
     dining: 231, internet: 53, schoolPerYear: 0, healthInsurance: 0,
     isDestination: false, country: "Australia",
-    emoji: "\u{1F1E6}\u{1F1FA}", vibe: "Harbour views and flat whites",
+    emoji: "🇦🇺", vibe: "Harbour views and flat whites",
   },
   "Karachi, Pakistan": {
     currency: "USD", currencySymbol: "$", taxRate: 0.15, socialContrib: 0.05,
     rent1BR: 216, rent3BR: 432, groceries: 90, transport: 36, utilities: 29,
     dining: 43, internet: 11, schoolPerYear: 1080, healthInsurance: 18,
     isDestination: false, country: "Pakistan",
-    emoji: "\u{1F1F5}\u{1F1F0}", vibe: "Port city resilience",
+    emoji: "🇵🇰", vibe: "Port city resilience",
   },
   "Lahore, Pakistan": {
     currency: "USD", currencySymbol: "$", taxRate: 0.15, socialContrib: 0.05,
     rent1BR: 180, rent3BR: 360, groceries: 79, transport: 29, utilities: 25,
     dining: 36, internet: 10, schoolPerYear: 900, healthInsurance: 14,
     isDestination: false, country: "Pakistan",
-    emoji: "\u{1F1F5}\u{1F1F0}", vibe: "Heart of Punjab",
+    emoji: "🇵🇰", vibe: "Heart of Punjab",
   },
   "Cairo, Egypt": {
     currency: "USD", currencySymbol: "$", taxRate: 0.15, socialContrib: 0.11,
     rent1BR: 309, rent3BR: 618, groceries: 103, transport: 41, utilities: 31,
     dining: 62, internet: 10, schoolPerYear: 2060, healthInsurance: 21,
     isDestination: false, country: "Egypt",
-    emoji: "\u{1F1EA}\u{1F1EC}", vibe: "Ancient meets modern",
+    emoji: "🇪🇬", vibe: "Ancient meets modern",
   },
   "Manila, Philippines": {
     currency: "USD", currencySymbol: "$", taxRate: 0.20, socialContrib: 0.045,
     rent1BR: 445, rent3BR: 979, groceries: 178, transport: 53, utilities: 89,
     dining: 107, internet: 36, schoolPerYear: 2670, healthInsurance: 53,
     isDestination: false, country: "Philippines",
-    emoji: "\u{1F1F5}\u{1F1ED}", vibe: "Island nation hustle",
+    emoji: "🇵🇭", vibe: "Island nation hustle",
   },
   "Nairobi, Kenya": {
     currency: "USD", currencySymbol: "$", taxRate: 0.20, socialContrib: 0.06,
     rent1BR: 385, rent3BR: 770, groceries: 116, transport: 39, utilities: 39,
     dining: 62, internet: 31, schoolPerYear: 3080, healthInsurance: 39,
     isDestination: false, country: "Kenya",
-    emoji: "\u{1F1F0}\u{1F1EA}", vibe: "Safari and startups",
+    emoji: "🇰🇪", vibe: "Safari and startups",
   },
 };
 
 const FAMILY_MULTIPLIERS = { single: 1, couple: 1.5, family: 2.2 };
 
 const FAMILY_VISUALS = {
-  single: { emoji: "\u{1F9CD}", label: "Solo adventurer" },
-  couple: { emoji: "\u{1F46B}", label: "Two of you" },
-  family: { emoji: "\u{1F46A}", label: "The whole crew" },
+  single: { emoji: "🧍", label: "Solo adventurer" },
+  couple: { emoji: "👫", label: "Two of you" },
+  family: { emoji: "👪", label: "The whole crew" },
 };
 
 function calcGratuity(monthlyBasicUSD, years) {
@@ -161,7 +161,7 @@ function buildCustomCity(custom) {
     healthInsurance: parseFloat(custom.health) || 0,
     isDestination: false,
     country: custom.name || "Custom",
-    emoji: "\u{1F30D}", vibe: "Your home base",
+    emoji: "🌍", vibe: "Your home base",
   };
 }
 
@@ -409,10 +409,10 @@ export default function ReloCalc({ startAtForm = false }) {
             <p style={{ color: "var(--text-muted)", fontSize: 13, marginBottom: 24 }}>Where you live and work now</p>
 
             <div style={{ display: "flex", gap: 8, marginBottom: 20 }}>
-              <ChoicePill selected={!isCustom} onClick={() => set("useCustomOrigin", false)} visual="\u{1F4CD}">
+              <ChoicePill selected={!isCustom} onClick={() => set("useCustomOrigin", false)} visual="📍">
                 Pick a City
               </ChoicePill>
-              <ChoicePill selected={isCustom} onClick={() => set("useCustomOrigin", true)} visual="\u{270F}\u{FE0F}">
+              <ChoicePill selected={isCustom} onClick={() => set("useCustomOrigin", true)} visual="✏️">
                 My City Isn't Listed
               </ChoicePill>
             </div>
@@ -557,10 +557,10 @@ export default function ReloCalc({ startAtForm = false }) {
             <div>
               <label style={lbl}>Health Insurance</label>
               <div style={{ display: "flex", gap: 8 }}>
-                <ChoicePill selected={formData.insuranceCovered} onClick={() => set("insuranceCovered", true)} visual="\u{2705}">
+                <ChoicePill selected={formData.insuranceCovered} onClick={() => set("insuranceCovered", true)} visual="✅">
                   Covered by employer
                 </ChoicePill>
-                <ChoicePill selected={!formData.insuranceCovered} onClick={() => set("insuranceCovered", false)} visual="\u{1F4B8}">
+                <ChoicePill selected={!formData.insuranceCovered} onClick={() => set("insuranceCovered", false)} visual="💸">
                   I pay myself
                 </ChoicePill>
               </div>
@@ -618,7 +618,7 @@ export default function ReloCalc({ startAtForm = false }) {
             borderColor: pos ? "rgba(107,127,107,0.2)" : "rgba(196,105,74,0.2)",
           }}>
             <div style={{ fontSize: 48, marginBottom: 12, animation: "scaleIn 0.5s cubic-bezier(0.16,1,0.3,1) 0.2s both" }}>
-              {pos ? "\u{2705}" : "\u{26A0}\u{FE0F}"}
+              {pos ? "✅" : "⚠️"}
             </div>
             <h1 style={{
               fontFamily: "'Playfair Display', serif",
